@@ -1,4 +1,9 @@
 {
+  "name": "hairday",
+  "description": "App Web de agendamento para corte de cabelo",
+  "version": "1.0.0",
+  "author": "Murilo Souza",
+  "license": "MIT",
   "scripts": {
     "server": "json-server --watch server.json --port 3333"
   },

@@ -57,3 +57,6 @@ Nessa aula, vamos criar uma lista de horários disponíveis e indisponíveis com
 
 Separando os horários pelo período
 Nessa aula vamos atualizar o código para separar os horários em manhã, tarde e noite, facilitando a visualização. Vamos criar uma função para adicionar cabeçalhos dinamicamente de acordo com o período do dia. O código vai verificar o horário atual e adicionar o cabeçalho correspondente antes de listar os horários disponíveis. Também vamos ajustar o CSS para mostrar visualmente os horários disponíveis e indisponíveis. Agora os horários são exibidos de acordo com o período do dia em que a aula está sendo assistida.
+
+Selecionando um horário
+Nessa aula, veremos como implementar a funcionalidade de seleção de horários em um projeto. Vamos adicionar uma classe CSS para destacar o horário selecionado, utilizando JavaScript para manipular os eventos de clique nos horários disponíveis. Também aprenderemos como remover a classe de horário selecionado de todos os horários e adicionar a classe apenas ao horário clicado, permitindo ao usuário visualizar facilmente qual horário foi selecionado. Essa interação é importante para melhorar a experiência do usuário no agendamento de horários.

@@ -45,3 +45,7 @@ Nesta aula, focaremos na integração da aplicação com a API para agendamento.
 
 Definindo a data atual
 Nessa aula, vamos aprender como capturar informações de um formulário para enviar a uma API de agendamento. Vamos organizar o código em módulos para facilitar a manutenção e separar as funcionalidades relacionadas ao formulário.
+
+Evento de carregamento do conteúdo
+Nessa aula, vamos abordar o processo de captura da data selecionada e definição da data mínima no input, além da necessidade de capturar os horários dinamicamente do HTML.
+

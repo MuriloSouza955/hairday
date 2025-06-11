@@ -60,3 +60,6 @@ Nessa aula vamos atualizar o código para separar os horários em manhã, tarde 
 
 Selecionando um horário
 Nessa aula, veremos como implementar a funcionalidade de seleção de horários em um projeto. Vamos adicionar uma classe CSS para destacar o horário selecionado, utilizando JavaScript para manipular os eventos de clique nos horários disponíveis. Também aprenderemos como remover a classe de horário selecionado de todos os horários e adicionar a classe apenas ao horário clicado, permitindo ao usuário visualizar facilmente qual horário foi selecionado. Essa interação é importante para melhorar a experiência do usuário no agendamento de horários.
+
+Enviando um horário selecionado para a API
+Nessa aula, vamos preparar os dados para serem enviados para a API. Veremos a importância de validar se os campos obrigatórios foram preenchidos corretamente, evitando erros. Além disso, aprenderemos como inserir a hora na data selecionada e gerar um identificador único para o agendamento.

@@ -21,10 +21,27 @@ export function hoursLoad({ date }) {
   opening.forEach(({ hour, available }) => {
     const li = document.createElement("li");
 
+    if (hour === "09:00") {
+      hourHeaderAdd("Manhã");
+    } else if (hour === "13:00") {
+      hourHeaderAdd("Tarde");
+    } else if (hour === "18:00") {
+      hourHeaderAdd("Noite");
+    }
+
     li.classList.add("hour");
     li.classList.add(available ? "hour-available" : "hour-unavailable");
 
     li.textContent = hour;
+
     hours.append(li);
   });
+}
+
+function hourHeaderAdd(title) {
+  const header = document.createElement("li");
+  header.classList.add("hour-period");
+  header.textContent = title;
+
+  hours.append(header);
 }

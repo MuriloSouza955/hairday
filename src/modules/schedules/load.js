@@ -1,12 +1,11 @@
-import {hoursLoad} from "../form/hours-load.js";
+import { hoursLoad } from "../form/hours-load.js";
 
 // Seleciona o input de data
-const selectedDate = document.getElementById('date');
+const selectedDate = document.getElementById("date");
 export function schedulesDay() {
-    // Obtém a data do input
-    const date = selectedDate.value;
+  // Obtém a data do input
+  const date = selectedDate.value;
 
-    // Renderiza os horarios disponíveis
-    hoursLoad({date});
-
+  // Renderiza os horarios disponíveis
+  hoursLoad({ date });
 }

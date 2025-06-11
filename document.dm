@@ -54,3 +54,6 @@ Nessa aula, vamos abordar a organização de arquivos e pastas em um projeto de 
 
 Renderizando os horários
 Nessa aula, vamos criar uma lista de horários disponíveis e indisponíveis com base no horário atual. Vamos utilizar um loop foreach para percorrer os horários e renderizá-los na página. Condicionalmente, vamos adicionar classes CSS para indicar se o horário está disponível ou não.
+
+Separando os horários pelo período
+Nessa aula vamos atualizar o código para separar os horários em manhã, tarde e noite, facilitando a visualização. Vamos criar uma função para adicionar cabeçalhos dinamicamente de acordo com o período do dia. O código vai verificar o horário atual e adicionar o cabeçalho correspondente antes de listar os horários disponíveis. Também vamos ajustar o CSS para mostrar visualmente os horários disponíveis e indisponíveis. Agora os horários são exibidos de acordo com o período do dia em que a aula está sendo assistida.

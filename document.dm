@@ -63,3 +63,6 @@ Nessa aula, veremos como implementar a funcionalidade de seleção de horários 
 
 Enviando um horário selecionado para a API
 Nessa aula, vamos preparar os dados para serem enviados para a API. Veremos a importância de validar se os campos obrigatórios foram preenchidos corretamente, evitando erros. Além disso, aprenderemos como inserir a hora na data selecionada e gerar um identificador único para o agendamento.
+
+Carregando horários para outros dias
+Neste vídeo, abordaremos a importância de atualizar automaticamente os horários disponíveis com base na data selecionada. Vamos criar um arquivo chamado date.change.js para lidar com essa lógica de atualização. Vamos aprender como limpar e recriar a lista de horários disponíveis ao mudar a data, garantindo que os horários sejam atualizados corretamente.

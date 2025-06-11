@@ -49,3 +49,5 @@ Nessa aula, vamos aprender como capturar informações de um formulário para en
 Evento de carregamento do conteúdo
 Nessa aula, vamos abordar o processo de captura da data selecionada e definição da data mínima no input, além da necessidade de capturar os horários dinamicamente do HTML.
 
+Carregando os horários
+Nessa aula, vamos abordar a organização de arquivos e pastas em um projeto de programação. Vamos criar uma pasta específica para agendamentos, com um arquivo de carregamento dos agendamentos do dia. Vamos usar funções para carregar horários disponíveis, considerando horários futuros e não agendados. Também vamos fazer a desestruturação de dados e a verificação de horários passados.

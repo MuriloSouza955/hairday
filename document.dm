@@ -51,3 +51,6 @@ Nessa aula, vamos abordar o processo de captura da data selecionada e definiçã
 
 Carregando os horários
 Nessa aula, vamos abordar a organização de arquivos e pastas em um projeto de programação. Vamos criar uma pasta específica para agendamentos, com um arquivo de carregamento dos agendamentos do dia. Vamos usar funções para carregar horários disponíveis, considerando horários futuros e não agendados. Também vamos fazer a desestruturação de dados e a verificação de horários passados.
+
+Renderizando os horários
+Nessa aula, vamos criar uma lista de horários disponíveis e indisponíveis com base no horário atual. Vamos utilizar um loop foreach para percorrer os horários e renderizá-los na página. Condicionalmente, vamos adicionar classes CSS para indicar se o horário está disponível ou não.

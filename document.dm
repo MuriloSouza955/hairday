@@ -42,3 +42,6 @@ Nessa aula, instalaremos o pacote day.js para manipulação de data e hora na ap
 *** MANIPULANDO O FORM ***
 Definindo as horas de atendimento
 Nesta aula, focaremos na integração da aplicação com a API para agendamento. Criaremos um arquivo para centralizar os horários de funcionamento do salão, facilitando a compreensão da estrutura do projeto.
+
+Definindo a data atual
+Nessa aula, vamos aprender como capturar informações de um formulário para enviar a uma API de agendamento. Vamos organizar o código em módulos para facilitar a manutenção e separar as funcionalidades relacionadas ao formulário.

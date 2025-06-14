@@ -77,3 +77,6 @@ Neste vídeo, abordaremos a importância de atualizar automaticamente os horári
 
 Criando o api-config
 Nessa aula, vamos abordar a integração da aplicação com uma API para envio e busca de dados. Vamos criar uma pasta chamada services para armazenar as funcionalidades da API. Dentro dessa pasta, vamos criar um arquivo chamado api.js para configurar a API, definindo o endereço base, que no caso é localhost:3333.
+
+Criando o serviço de agendamento
+Nesse vídeo, vamos criar um novo arquivo chamado schedule-new.js para enviar um novo agendamento para a API. A função assíncrona schedule-new é exportada para reutilização na aplicação. Vamos fazer uma requisição POST para a API com os dados do agendamento, utilizando o método fetch e tratando possíveis erros com try-catch.

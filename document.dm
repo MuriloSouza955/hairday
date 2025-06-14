@@ -8,6 +8,8 @@ Figma: https://www.figma.com/community/file/1360316357733167308/plataforma-de-ag
 
 Nessa aula, iremos aprender como usar o template HTML e CSS do nosso projeto Hair Day.
 
+=================================
+
 *** PACOTES ***
 Usando o json-server
 Nesta aula, vamos adicionar o json-server à aplicação para criar uma API local e simular seu funcionamento. Veremos como instalar o json-server, criar um script para inicializar o servidor, definir rotas e simular dados de retorno da API.
@@ -39,6 +41,8 @@ Nesta aula, incluiremos o Babel na aplicação, instalando e configurando-o no W
 Instalando o pacote day.js
 Nessa aula, instalaremos o pacote day.js para manipulação de data e hora na aplicação. Vamos instalar e criar um arquivo de configuração dentro da pasta "libs".
 
+=================================
+
 *** MANIPULANDO O FORM ***
 Definindo as horas de atendimento
 Nesta aula, focaremos na integração da aplicação com a API para agendamento. Criaremos um arquivo para centralizar os horários de funcionamento do salão, facilitando a compreensão da estrutura do projeto.
@@ -66,3 +70,10 @@ Nessa aula, vamos preparar os dados para serem enviados para a API. Veremos a im
 
 Carregando horários para outros dias
 Neste vídeo, abordaremos a importância de atualizar automaticamente os horários disponíveis com base na data selecionada. Vamos criar um arquivo chamado date.change.js para lidar com essa lógica de atualização. Vamos aprender como limpar e recriar a lista de horários disponíveis ao mudar a data, garantindo que os horários sejam atualizados corretamente.
+
+=================================
+
+*** Integração com a API ***
+
+Criando o api-config
+Nessa aula, vamos abordar a integração da aplicação com uma API para envio e busca de dados. Vamos criar uma pasta chamada services para armazenar as funcionalidades da API. Dentro dessa pasta, vamos criar um arquivo chamado api.js para configurar a API, definindo o endereço base, que no caso é localhost:3333.

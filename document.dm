@@ -80,3 +80,6 @@ Nessa aula, vamos abordar a integração da aplicação com uma API para envio e
 
 Criando o serviço de agendamento
 Nesse vídeo, vamos criar um novo arquivo chamado schedule-new.js para enviar um novo agendamento para a API. A função assíncrona schedule-new é exportada para reutilização na aplicação. Vamos fazer uma requisição POST para a API com os dados do agendamento, utilizando o método fetch e tratando possíveis erros com try-catch.
+
+Registrando um novo agendamento na API
+Nessa aula vamos aprender como importar um método para agendar eventos em uma aplicação. Vamos ver como realizar o agendamento após importar o método, substituindo a função console.log pela função de agendamento. Após realizar o agendamento, é possível verificar no arquivo que o agendamento foi realizado com sucesso. O método utilizado é assíncrono, sendo necessário utilizar o await para garantir que a função seja executada corretamente.

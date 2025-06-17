@@ -36,6 +36,7 @@ form.onsubmit = async (event) => {
 
     //Gera ID único para o agendamento
     const id = new Date().getTime();
+    
     await scheduleNew({
       id,
       name,

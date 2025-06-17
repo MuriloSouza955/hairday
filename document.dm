@@ -83,3 +83,6 @@ Nesse vídeo, vamos criar um novo arquivo chamado schedule-new.js para enviar um
 
 Registrando um novo agendamento na API
 Nessa aula vamos aprender como importar um método para agendar eventos em uma aplicação. Vamos ver como realizar o agendamento após importar o método, substituindo a função console.log pela função de agendamento. Após realizar o agendamento, é possível verificar no arquivo que o agendamento foi realizado com sucesso. O método utilizado é assíncrono, sendo necessário utilizar o await para garantir que a função seja executada corretamente.
+
+Renderizando os agendamentos do dia
+Nessa aula, aprenderemos como renderizar agendamentos da API em períodos do dia no console. Vamos criar um método para exibir os agendamentos, percorrer a lista de agendamentos e adicionar elementos HTML dinamicamente. Também veremos a importância de organizar o código e utilizar try catch para lidar com erros.

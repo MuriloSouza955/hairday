@@ -86,3 +86,6 @@ Nessa aula vamos aprender como importar um método para agendar eventos em uma a
 
 Renderizando os agendamentos do dia
 Nessa aula, aprenderemos como renderizar agendamentos da API em períodos do dia no console. Vamos criar um método para exibir os agendamentos, percorrer a lista de agendamentos e adicionar elementos HTML dinamicamente. Também veremos a importância de organizar o código e utilizar try catch para lidar com erros.
+
+Bloqueando horários já agendados
+Nessa aula, vamos implementar o bloqueio de horários já agendados em um sistema de agendamento. Vamos adicionar uma camada de verificação para impedir que um horário já ocupado seja agendado novamente. Utilizando a função includes para verificar se o horário está na lista de horários ocupados e a função isBefore para verificar se o horário já passou.

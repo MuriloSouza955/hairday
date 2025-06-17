@@ -17,6 +17,7 @@ export function schedulesShow({ dailySchedules }) {
       const item = document.createElement("li");
       const time = document.createElement("strong");
       const name = document.createElement("span");
+      const cancelIcon = document.createElement("img");
 
       // adicionando o ID do agendamento
       item.setAttribute("data-id", schedule.id);
@@ -24,7 +25,7 @@ export function schedulesShow({ dailySchedules }) {
       time.textContent = dayjs(schedule.when).format("HH:mm");
       name.textContent = schedule.name;
       cancelIcon.classList.add("cancel-icon");
-      cancelIcon.setAttribute("src", "assets/images/cancel.svg");
+      cancelIcon.setAttribute("src", "src/assets/cancel.svg");
       cancelIcon.setAttribute("alt", "Cancelar");
 
       //Adicionando o item ao DOM

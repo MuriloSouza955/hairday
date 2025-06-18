@@ -89,3 +89,6 @@ Nessa aula, aprenderemos como renderizar agendamentos da API em períodos do dia
 
 Bloqueando horários já agendados
 Nessa aula, vamos implementar o bloqueio de horários já agendados em um sistema de agendamento. Vamos adicionar uma camada de verificação para impedir que um horário já ocupado seja agendado novamente. Utilizando a função includes para verificar se o horário está na lista de horários ocupados e a função isBefore para verificar se o horário já passou.
+
+Atualizando a lista de agendamentos
+Nessa aula, vamos ver como realizar agendamentos na aplicação. Vamos aprender a importância de separar as funcionalidades em partes distintas e centralizá-las para facilitar o desenvolvimento. Também vamos fazer alguns ajustes, como recarregar a lista após um agendamento e limpar os campos para novos agendamentos.

@@ -98,3 +98,6 @@ Nessa aula, vamos implementar o cancelamento de agendamentos ao clicar em um íc
 
 Removendo um agendamento da API
 Nessa aula, vamos ver como criar uma função para cancelar agendamentos em uma API. Vamos criar um arquivo chamado cancel.js que contém uma função assíncrona para cancelar um agendamento específico. Após a confirmação do usuário, faremos uma requisição para a API para cancelar o agendamento selecionado.
+
+Encerramento do projeto
+Finalizamos o projeto de uma aplicação de agendamento de corte de cabelo!

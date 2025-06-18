@@ -92,3 +92,6 @@ Nessa aula, vamos implementar o bloqueio de horários já agendados em um sistem
 
 Atualizando a lista de agendamentos
 Nessa aula, vamos ver como realizar agendamentos na aplicação. Vamos aprender a importância de separar as funcionalidades em partes distintas e centralizá-las para facilitar o desenvolvimento. Também vamos fazer alguns ajustes, como recarregar a lista após um agendamento e limpar os campos para novos agendamentos.
+
+Selecionando um agendamento para remover
+Nessa aula, vamos implementar o cancelamento de agendamentos ao clicar em um ícone específico. Vamos criar um método para selecionar os agendamentos e capturar o evento de clique. Se o clique for no ícone de cancelamento será exibida uma mensagem de confirmação. Ao confirmar, uma mensagem de "Confirmado" vai ser exibida.
